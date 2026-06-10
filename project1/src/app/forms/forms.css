@@ -1,0 +1,46 @@
+/* Background Anime Theme */
+:host {
+  display: block;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+              url('https://wallpaperaccess.com/full/3819033.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Section */
+.contact-section {
+  min-height: 90vh;
+}
+
+
+/* Inputs */
+.form-control {
+  background: transparent;
+  border: 1px solid #232323;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+/* Button */
+.btn-anime {
+  background: #5e5358;
+  color: white;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn-anime:hover {
+  background: #ff1a8c;
+  transform: scale(1.05);
+}
+
+/* Icons */
+.icon {
+  color: #ff4da6;
+  margin-right: 8px;
+}
