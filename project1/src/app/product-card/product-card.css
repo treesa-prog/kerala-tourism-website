@@ -1,0 +1,59 @@
+/* 🌑 SIMPLE DARK BACKGROUND */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 📦 CONTAINER SPACING */
+.container {
+    margin-top: 40px;
+}
+
+/* 🎴 CARD STYLE */
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+/* 🖼 IMAGE */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ✨ HOVER EFFECT (smooth, not flashy) */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* 📝 TEXT */
+.card-title {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #b0b0b0;
+    font-size: 14px;
+}
+
+/* 🔘 BUTTON */
+.btn-primary {
+    background-color: #e50914; /* Netflix red */
+    border: none;
+    border-radius: 5px;
+}
+
+/* BUTTON HOVER */
+.btn-primary:hover {
+    background-color: #b20710;
+}
+
+/* 📏 SPACING BETWEEN CARDS */
+.col {
+    margin-bottom: 20px;
+}

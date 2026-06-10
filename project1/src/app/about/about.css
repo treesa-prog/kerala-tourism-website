@@ -1,0 +1,94 @@
+/* 🌑 FULL PAGE DARK BACKGROUND */
+body {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔝 NAVBAR DARK */
+.navbar {
+    background-color: #111 !important;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+    color: #e50914 !important;
+}
+
+/* 📦 CONTAINER SPACING */
+.container {
+    margin-top: 50px;
+}
+
+/* 🎴 CARD STYLE */
+.card {
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    color: white;
+    max-width: 320px;
+    margin: auto;
+}
+
+/* 🖼 IMAGE */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* 📝 CARD BODY */
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+/* 🎬 TITLE */
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 📄 TEXT */
+.card-text {
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+/* 🔥 HOVER EFFECT */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+}
+
+/* 🔘 BUTTON (RED NETFLIX STYLE) */
+.btn-primary {
+    background-color: #e50914;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+    font-weight: 500;
+}
+
+/* BUTTON HOVER */
+.btn-primary:hover {
+    background-color: #b20710;
+}
+
+/* 📏 ROW SPACING */
+.row {
+    row-gap: 40px;
+}
+
+/* 📱 MOBILE FIX */
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+}

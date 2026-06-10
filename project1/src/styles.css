@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: 
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+        url('https://wallpapercave.com/wp/wp8325478.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}* You can add global styles to this file, and also import other style files */
+
+/* 🌑 FOOTER MAIN */
+.anime-footer {
+    background-color: #111;
+    color: #ccc;
+    padding: 30px 0;
+    border-top: 2px solid #e50914;
+}
+
+/* 🌸 TITLE */
+.anime-footer h5 {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* 📄 TEXT */
+.anime-footer p {
+    font-size: 14px;
+}
+
+/* 🔗 LINKS */
+.footer-links a {
+    color: #bbb;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #e50914;
+}
+
+/* 📱 SOCIAL ICONS */
+.social-icons i {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.social-icons i:hover {
+    color: #e50914;
+    transform: scale(1.2);
+}
+
+/* 📌 COPYRIGHT */
+.copyright {
+    font-size: 13px;
+    color: #777;
+}

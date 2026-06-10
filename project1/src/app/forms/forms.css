@@ -44,3 +44,86 @@
   color: #ff4da6;
   margin-right: 8px;
 }
+/* 🌑 FULL PAGE BACKGROUND */
+body {
+    background-color: #0f0f0f;
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+}
+
+/* 📦 CONTACT SECTION CENTER */
+.contact-section {
+    min-height: 100vh;
+}
+
+/* 🧾 CONTACT BOX */
+.contact-box {
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+/* ✨ HOVER EFFECT */
+.contact-box:hover {
+    transform: translateY(-5px);
+}
+
+/* 📝 HEADING */
+.contact-box h2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* 🏷 LABELS */
+.form-label {
+    color: #cccccc;
+}
+
+/* 🧾 INPUT FIELDS */
+.form-control {
+    background-color: #2a2a2a;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+/* INPUT PLACEHOLDER */
+.form-control::placeholder {
+    color: #888;
+}
+
+/* INPUT FOCUS */
+.form-control:focus {
+    background-color: #2a2a2a;
+    color: #fff;
+    box-shadow: 0 0 5px #e50914;
+    border: 1px solid #e50914;
+}
+
+/* 🔴 BUTTON (ANIME RED) */
+.btn-anime {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+/* BUTTON HOVER */
+.btn-anime:hover {
+    background-color: #b20710;
+}
+
+/* 📞 CONTACT INFO */
+.contact-box p {
+    color: #bbbbbb;
+    margin: 5px 0;
+}
+
+/* ✉ ICON STYLE */
+.icon {
+    color: #e50914;
+    margin-right: 8px;
+}
